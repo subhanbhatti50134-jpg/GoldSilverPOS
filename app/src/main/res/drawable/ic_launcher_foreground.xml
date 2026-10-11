@@ -1,0 +1,46 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Silver bullion bar -->
+    <path
+        android:fillColor="#E8EDF3"
+        android:pathData="M29,34 L57,34 L72,46 L44,46 Z" />
+    <path
+        android:fillColor="#B8C0CA"
+        android:pathData="M44,46 L72,46 L72,53 L44,53 Z" />
+    <path
+        android:fillColor="#858F9D"
+        android:pathData="M57,34 L72,46 L72,53 L57,41 Z" />
+
+    <!-- Gold bullion bar: side faces -->
+    <path
+        android:fillColor="#C98A16"
+        android:pathData="M20,49 L44,66 L44,79 L20,62 Z" />
+    <path
+        android:fillColor="#E7A91E"
+        android:pathData="M44,66 L78,66 L78,79 L44,79 Z" />
+    <path
+        android:fillColor="#A66B0C"
+        android:pathData="M54,49 L78,66 L78,79 L54,62 Z" />
+
+    <!-- Gold top surface -->
+    <path
+        android:fillColor="#FFD76A"
+        android:pathData="M20,49 L54,49 L78,66 L44,66 Z" />
+
+    <!-- Refined metallic highlight -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFF0B4"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:pathData="M27,52 L52,52 L69,64" />
+
+    <!-- Assay hallmark -->
+    <path
+        android:fillColor="#B77A0C"
+        android:pathData="M48,54 A3,3 0,1 0,48,60 A3,3 0,1 0,48,54 Z" />
+</vector>

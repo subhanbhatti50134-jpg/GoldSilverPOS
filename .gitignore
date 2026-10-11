@@ -1,0 +1,25 @@
+/.gradle/
+/local.properties
+/.idea/
+**/build/
+*.iml
+keystore.properties
+*.jks
+*.keystore
+
+# Android/Gradle generated files
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.hprof
+
+# Logs and temporary files
+*.log
+*.tmp
+*.backup
+
+# Operating-system files
+.DS_Store
+Thumbs.db
