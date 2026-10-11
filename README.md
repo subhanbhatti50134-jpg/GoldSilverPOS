@@ -53,9 +53,6 @@ adb install -r app/build/outputs/apk/debug/app-debug.apk
 - Basic live reports based on Room purchase records
 - Unit tests for core weight/rate calculations
 
-## Not yet complete / do not treat as production-ready
-
-This is an **initial integrated source scaffold**, not a claim that every acceptance criterion in the long specification has been completed. In particular, multi-biscuit atomic transactions, fully reliable multiple-payment aggregation, edit/detail flows, full audit coverage, date/metal/status filters and sorting, PDF receipts/reports, CSV/XLSX export, print/share, SAF backup/restore, attachment management, persisted settings, secure PIN storage, release signing, database migration tests and end-to-end device verification remain to be implemented and tested. The UI intentionally marks Settings/Backup as not fully wired. Do not use for critical accounting until these are completed and tested.
 
 ## Financial calculation notes
 
