@@ -28,8 +28,9 @@ jobs:
           java-version: 17
           cache: gradle
 
-      - name: Set up Android SDK
-        uses: android-actions/setup-android@v3
+      # No explicit Android SDK setup step: ubuntu-latest images ship with the
+      # Android SDK preinstalled, and android-actions/setup-android@v3 fails
+      # on them ("Failed to find package 'tools'").
 
       - name: Make Gradle wrapper executable
         run: chmod +x gradlew
