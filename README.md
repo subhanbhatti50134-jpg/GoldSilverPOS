@@ -1,5 +1,7 @@
 # Gold & Silver Laboratory Management App
 
+[![CI](https://github.com/subhanbhatti50134-jpg/GoldSilverPOS/actions/workflows/ci.yml/badge.svg)](https://github.com/subhanbhatti50134-jpg/GoldSilverPOS/actions/workflows/ci.yml)
+
 ![Screenshot of the Gold and Silver Laboratory Management app](docs/images/gold-silver-pos.png)
 
 Native Android source project using Kotlin, Jetpack Compose, Material 3, Room/SQLite, MVVM and Coroutines/Flow. Package: `com.goldlab.management`.
